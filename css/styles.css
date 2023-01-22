@@ -1,0 +1,19 @@
+.bg-image {
+  background-image: url('../pic/pic baby.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media screen and (max-width: 575px) {
+  .bg-image{
+
+    background-size: cover;
+  }
+  p {
+    background-color: #E8F3D6;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+} 
